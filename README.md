@@ -25,3 +25,6 @@ Examples:
  - `docker run hebvaccine -c "Austin" -c "San Antonio"` would search based on cities
  - `docker run hebvaccine -H "Round Rock, TX" -d 50` would look for appointments 50 miles from Round Rock
  - `docker run hebvaccine -H 78023 -d 30` would look for appointments 30 miles from zip code 78023
+
+### Next Steps
+After a desired appointment becomes available, click [here](https://heb-ecom-covid-vaccine.hebdigital-prd.com) to go HEB scheduler site to book your appointment.
