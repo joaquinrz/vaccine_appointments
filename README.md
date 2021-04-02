@@ -21,6 +21,7 @@ docker build -t hebvaccine ./
 ### Run your image
 Examples:
 
+ - `docker run hebvaccine` would return all available vaccine locations in Texas
  - `docker run hebvaccine -c "Austin" -c "San Antonio"` would search based on cities
  - `docker run hebvaccine -H "Round Rock, TX" -d 50` would look for appointments 50 miles from Round Rock
  - `docker run hebvaccine -H 78023 -d 30` would look for appointments 30 miles from zip code 78023
